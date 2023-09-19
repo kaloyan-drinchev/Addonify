@@ -1,0 +1,42 @@
+.activatedPage-dashboard {
+    width:0px;
+    visibility: hidden;
+}
+.activatedPage-dashboard a{
+    width:0px;
+    visibility: hidden;
+}
+.pagination-dashboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    list-style: none;
+  }
+
+  .page-item-dashboard {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .page-link-dashboard {
+    text-decoration: none;
+    color: #333;
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+  .page-item-dashboard.break {
+    padding: 0;
+  }
+/* 
+  .next-page-item-dashboard{
+    position:absolute;
+    right:45px;
+  } */
